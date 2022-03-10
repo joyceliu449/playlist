@@ -19,6 +19,7 @@ h1 {
   height: 100px;
   width: auto;
   margin: 20px;
+  border: 5px dotted white;
 }
 
 .songs p {
@@ -58,9 +59,14 @@ h1 {
 input {
   padding: 5px 10px;
   font-size: 14px;
+  color: #55827f;
 }
 
 button {
   font-size: 14px;
   padding: 5px 10px;
+}
+
+body{
+  background-color: #bbf2ee;
 }
