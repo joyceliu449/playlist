@@ -64,7 +64,7 @@ function displaySongInfo() {
     $(".songs").append(`<p>${song.name}</p>`);
     $(".artists").append(`<p>${song.artist}</p>`);
     $(".lengths").append(`<p>${song.length}</p>`);
-    $(".links").append(`<a href = "${song.url}" target ="_blank"> Link </a>`);
+    $(".links").append(`<a href = "${song.link}" target ="_blank"> Link </a>`);
     $(".images").append(`<img src=${song.image} >`);
   });
   $("h4").text("Number of Songs in the Playlist: " + songInfo.length);
